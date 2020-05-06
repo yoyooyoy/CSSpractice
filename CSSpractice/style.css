@@ -1,0 +1,126 @@
+*{
+	position: relative;
+	box-sizing: border-box;
+}
+.elements{
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 12px 24px;
+	font-size: 20px;
+	color: #fff;
+}
+.givePadding{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+.mainbg{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(45deg, red, yellow);
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.wrapper{
+	overflow: hidden;
+}
+/*navbar*/
+.navbar{
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	z-index: 20;
+}
+.navbar .elements{
+	height: 50px;
+}
+/*jumbotron*/
+.jumbotron{
+	background-color: rgba(0,0,0,0);
+	margin-bottom: 0;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+.jumbotron .elements{
+	height: 300px;
+}
+/*whatON*/
+.whatON{
+	background-color: #fff;
+}
+
+.album-art{
+	float: left;
+	padding:0;
+}
+.album-art .elements{
+	padding-top: 100%;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.hidden-sm{
+		display: none;
+	}
+}
+/*albums*/
+.phone-group{
+	/*transform: rotateZ(35deg);*/
+	left: -10px;
+}
+@media(min-width: 768px){
+	.phone-group{
+		left: 0;
+	}
+}
+.phone{
+	background-color: #fff;
+	width: 150px;
+	height: 300px;
+	border: 5px solid purple;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+@media(min-width: 768px){
+	.phone{
+		width: 400px;
+		height: 600px;
+		border-radius: 50px;
+	}
+}
+/*.phone1, .phone4{
+	margin-top: 10px;
+}*/
+/*@media(min-width: 768px){
+	.phone1, .phone4{
+	margin-top: 100px;
+	}
+}*/
+
+/*device*/
+.device{
+	background-color: #222326;
+}
+.device .elements{
+	height: 400px;
+}
+/*subcription*/
+.subcription .elements{
+	height: 600px;
+}
+/*footer*/
+.footer{
+	background-color: #000;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+.footer .elements{
+	height: 200px;
+}
+.footer .icon .elements{
+	height: 50px;
+}
+.icon{
+	margin-top: 100px; 
+}
